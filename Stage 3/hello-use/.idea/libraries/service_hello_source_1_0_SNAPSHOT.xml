@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="service-hello-source-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hello-src/target/service-hello-source-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

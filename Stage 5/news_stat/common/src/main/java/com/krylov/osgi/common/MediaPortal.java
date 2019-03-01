@@ -1,4 +1,4 @@
-package com.krylov.osgi;
+package com.krylov.osgi.common;
 
 import java.util.List;
 

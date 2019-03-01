@@ -1,6 +1,6 @@
-package com.krylov.osgi;
+package com.krylov.osgi.command;
 
-
+import com.krylov.osgi.common.MediaPortal;
 import org.apache.felix.service.command.CommandProcessor;
 import org.osgi.service.component.annotations.*;
 
@@ -21,6 +21,7 @@ public class CommandStat {
 
     Map<String, MediaPortal> mediaPortalMap = new HashMap<String, MediaPortal>();
 
+
     @Reference(
             service = MediaPortal.class,
             cardinality = ReferenceCardinality.MULTIPLE,
@@ -33,6 +34,7 @@ public class CommandStat {
     }
 
     public void unbinder(MediaPortal mediaPortal) {
+        System.out.println("Unbind " + mediaPortal.getMediaName());
         mediaPortalMap.remove(mediaPortal.getMediaName());
     }
 

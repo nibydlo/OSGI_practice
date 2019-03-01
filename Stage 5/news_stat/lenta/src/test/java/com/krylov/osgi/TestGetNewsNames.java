@@ -1,16 +1,9 @@
 package com.krylov.osgi;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.krylov.osgi.lenta.LentaImpl;
 
 import java.io.*;
-import java.net.URL;
-import java.nio.charset.Charset;
-import java.util.*;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 import static java.util.Collections.reverseOrder;
 
 

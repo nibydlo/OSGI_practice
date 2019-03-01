@@ -38,8 +38,7 @@
                 <version>4.1.0</version>
                 <configuration>
                     <instructions>
-                        <Export-Package>com.krylov.osgi</Export-Package>
-                        <Import-Package>*</Import-Package>
+                        <Export-Package>com.krylov.osgi.common</Export-Package>
                         <_dsannotations>*</_dsannotations>
                         <_metatypeannotations>*</_metatypeannotations>
                     </instructions>

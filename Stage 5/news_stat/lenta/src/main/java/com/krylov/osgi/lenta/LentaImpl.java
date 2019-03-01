@@ -1,14 +1,13 @@
-package com.krylov.osgi;
+package com.krylov.osgi.lenta;
 
 import java.io.*;
-import java.lang.reflect.Type;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.krylov.osgi.common.MediaPortal;
+import com.krylov.osgi.common.MediaPortalAbstract;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

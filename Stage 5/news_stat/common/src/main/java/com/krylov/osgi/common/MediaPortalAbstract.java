@@ -1,4 +1,6 @@
-package com.krylov.osgi;
+package com.krylov.osgi.common;
+
+import com.krylov.osgi.common.MediaPortal;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -52,10 +52,9 @@
                 <configuration>
                     <instructions>
                         <Export-Package>
-                            com.krylov.osgi.*,
+                            com.krylov.osgi.lenta,
                             org.json
                         </Export-Package>
-                        <Import-Package>*</Import-Package>
                         <_dsannotations>*</_dsannotations>
                         <_metatypeannotations>*</_metatypeannotations>
                     </instructions>

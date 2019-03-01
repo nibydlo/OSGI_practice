@@ -1,5 +1,7 @@
 package com.krylov.osgi;
 
+import com.krylov.osgi.common.MediaPortal;
+import com.krylov.osgi.common.MediaPortalAbstract;
 import org.osgi.service.component.annotations.Component;
 
 import java.io.BufferedReader;
